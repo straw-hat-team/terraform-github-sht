@@ -1,5 +1,13 @@
 locals {
   default_labels = {
+    stale_keep = {
+      name  = "Stale: Keep"
+      color = "25b1d7"
+    }
+    stale_discard = {
+      name  = "Stale: Discard"
+      color = "d74625"
+    }
     cla_signed = {
       name  = "CLA: Signed"
       color = "009800"
