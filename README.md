@@ -1,4 +1,4 @@
-# Terraform Github Straw Hat Team
+# Terraform Straw Hat Team Github
 
 Welcome to Straw Hat Team Terraform modules for managing Github organization.
 
