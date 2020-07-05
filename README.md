@@ -13,9 +13,4 @@ organization, therefore, the decisions are made to fit those needs.
 
 ## What is next
 
-Check the list of modules available.
-
-- [membership](./modules/membership/README.md): for managing access to the
-  organization.
-- [repository](./modules/repository/README.md): for managing repositories.
-- [team](./modules/team/README.md): for managing teams.
+Check the list of submodules available.
