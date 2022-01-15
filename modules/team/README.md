@@ -1,6 +1,6 @@
 # Team
 
-This module allows you to manage GitHub teams.
+This module allows to manage GitHub teams.
 
 ## Example usage
 

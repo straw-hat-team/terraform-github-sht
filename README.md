@@ -6,9 +6,9 @@ Welcome to Straw Hat Team Terraform modules for managing Github organization.
 
 ### Modules
 
-- [modules/membership](./modules/membership/README.md) allows you to manage GitHub memberships.
-- [modules/repository](./modules/repository/README.md) allows you to manage GitHub repositories.
-- [modules/team](./modules/team/README.md) allows you to manage GitHub repositories.
+- [modules/membership](./modules/membership/README.md) allows to manage GitHub memberships.
+- [modules/repository](./modules/repository/README.md) allows to manage GitHub repositories.
+- [modules/team](./modules/team/README.md) allows to manage GitHub repositories.
 
 ## Explanations
 

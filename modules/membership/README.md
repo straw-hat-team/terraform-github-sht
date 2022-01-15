@@ -1,6 +1,6 @@
 # Membership
 
-This module allows you to manage GitHub memberships.
+This module allows to manage GitHub memberships.
 
 ## Example usage
 

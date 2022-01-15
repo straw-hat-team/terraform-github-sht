@@ -1,6 +1,6 @@
 # Repository
 
-This module allows you to manage GitHub repositories.
+This module allows to manage GitHub repositories.
 
 ## Example usage
 
