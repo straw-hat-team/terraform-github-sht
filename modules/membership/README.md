@@ -2,16 +2,21 @@
 
 This module allows to manage GitHub memberships.
 
-## Example usage
+## How-To Guides
 
-```hcl
-module "my_org_membership" {
-  source              = "straw-hat-team/sht/github//modules/membership"
-  version             = "0.1.0"
-  github_token        = "your github access token"
-  github_organization = "my-org"
-  admins              = ["SomeAdmin"]
-  members             = ["SomeUser"]
-  blocked_users       = ["SomeBlockedUsername"]
-}
-```
+### Add memberships to an organization
+
+1. Create or find a GitHub Access Token.
+2. Configure the module, for example:
+
+    ```hcl
+    module "my_org_membership" {
+      source              = "straw-hat-team/sht/github//modules/membership"
+      version             = "0.1.0"
+      github_token        = "your github access token"
+      github_organization = "my-org"
+      admins              = ["SomeAdmin"]
+      members             = ["SomeUser"]
+      blocked_users       = ["SomeBlockedUsername"]
+    }
+    ```
