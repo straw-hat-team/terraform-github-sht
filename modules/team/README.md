@@ -6,7 +6,15 @@ This module allows to manage GitHub teams.
 
 ### Add a team to an organization
 
-1. Create or find a GitHub Access Token.
+1. Create or find a GitHub Access Token and configure the GitHub provider.
+
+    ```hcl
+    provider "github" {
+      token = var.github_token
+      owner = "my-org-name"
+    }
+    ```
+
 2. Configure the module, for example:
 
     ```hcl
