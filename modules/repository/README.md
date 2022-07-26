@@ -6,7 +6,15 @@ This module allows to manage GitHub repositories.
 
 ### Create a repository
 
-1. Create or find a GitHub Access Token.
+1. Create or find a GitHub Access Token and configure the GitHub provider.
+
+    ```hcl
+    provider "github" {
+      token = var.github_token
+      owner = "my-org-name"
+    }
+    ```
+
 2. Create a team that will be added to the repository
 
     ```hcl
