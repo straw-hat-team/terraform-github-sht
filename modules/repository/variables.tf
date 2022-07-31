@@ -9,7 +9,7 @@ variable "repository_description" {
 }
 
 variable "repository_topics" {
-  type        = list(string)
+  type        = set(string)
   default     = []
   description = "List of labels for the repository."
 }

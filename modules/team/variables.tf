@@ -5,7 +5,7 @@ variable "team_enable" {
 }
 
 variable "team_members" {
-  type        = list(string)
+  type        = set(string)
   default     = []
   description = "This list of members of the team."
 }
