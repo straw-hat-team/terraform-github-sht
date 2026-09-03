@@ -35,5 +35,5 @@ variable "repository_labels" {
     color = string
   }))
   default     = {}
-  description = "List of extra repository labels."
+  description = "Repository labels. Names are lowercase and colon separated, as in `stale:keep`."
 }
